@@ -60,6 +60,7 @@ public class user {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
 	@Override
 	public String toString() {
 		return "user [id=" + id + ", userName=" + userName + ", completeName=" + completeName + ", email=" + email
