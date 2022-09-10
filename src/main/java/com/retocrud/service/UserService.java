@@ -25,6 +25,6 @@ public class UserService {
 	}
 	
 	public void delete(user user) {
-		userRepository.delete(user);
+		userRepository.delete(user);		
 	}
 }
